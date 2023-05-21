@@ -1,0 +1,32 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px, // overriden from 576
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+#picture {
+  border-style: dashed;
+  border-width: medium;
+}
+
+.disclaimer {
+  font-size: 0.7rem;
+}
+
+.user-list-img {
+  border-radius: 50%;
+}
+
+.status-indicator {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  bottom: 17.5px;
+  right: 17.5px;
+}
